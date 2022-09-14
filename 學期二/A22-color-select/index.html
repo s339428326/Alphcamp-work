@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <meta name="author" content="Stanley Wong" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="container">
+      <div class="slidecontainer">
+        <p class="box red">R</p>
+        <input
+          type="range"
+          min="0"
+          max="255"
+          value="0"
+          class="slider"
+          id="Range"
+        />
+        <label for="redRange" class="red box">0</label>
+      </div>
+      <div class="slidecontainer">
+        <p class="green box">G</p>
+        <input
+          type="range"
+          min="0"
+          max="255"
+          value="0"
+          class="slider"
+          id="Range"
+        />
+        <label for="greenRange" class="green box">0</label>
+      </div>
+      <div class="slidecontainer">
+        <p class="blue box">B</p>
+        <input
+          type="range"
+          min="0"
+          max="255"
+          value="0"
+          class="slider"
+          id="Range"
+        />
+        <label for="blueRange" class="blue box">0</label>
+      </div>
+      <div class="color-number">
+        <p class="hex-viewer">#000000</p>
+      </div>
+    </section>
+    <script src="./app.js"></script>
+  </body>
+</html>

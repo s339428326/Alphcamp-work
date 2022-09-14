@@ -1,0 +1,31 @@
+.paoke-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2px;
+}
+
+.paoke-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  flex: 7% 1 1;
+  border: 2px solid #e0e0e0;
+  border-radius: 0.125rem;
+  height: 8vw;
+  p {
+    margin: 4px;
+    font-size: 10px;
+  }
+  p:first-child {
+    align-self: flex-start;
+  }
+  img {
+    max-width: 30%;
+  }
+  p:last-child {
+    transform: rotate(180deg);
+    align-self: flex-end;
+  }
+}

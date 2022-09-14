@@ -1,0 +1,111 @@
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  width: 100vw;
+  height: 100vh;
+  background: #333;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.container {
+  text-align: center;
+  max-width: 231px;
+  margin: 0 auto;
+  padding-bottom: 1px;
+}
+
+.main {
+  position: relative;
+  max-width: 300px;
+  min-height: 500px;
+  border-radius: 20px;
+  background: linear-gradient(
+    161.98deg,
+    #07e3a1 13.65%,
+    rgba(11, 111, 218, 0) 87.85%
+  );
+  margin: 100px auto;
+}
+
+/* Bonus for you: center a background image! */
+.bernard-img {
+  position: absolute;
+  top: -106px;
+  left: 86px;
+  width: 128px;
+  height: 156px;
+  border-radius: 64px;
+  background-image: url(https://assets-lighthouse.alphacamp.co/uploads/image/file/14990/Bernard_keyer.png);
+  background-size: cover;
+  background-position: center center;
+}
+
+/* begin your styles here!*/
+.user {
+  position: absolute;
+  background-color: white;
+  top: 18px;
+  right: 17px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.new-message {
+  position: absolute;
+  background-color: red;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  top: 0;
+  right: 0;
+}
+
+.ind {
+  width: 100%;
+  margin-top: 200px;
+  position: absolute;
+  text-align: center;
+  bottom: 0px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.ind h1 {
+  padding-top: 68px;
+  padding-bottom: 7px;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 35px;
+}
+
+.ind div.block {
+  background-color: white;
+}
+
+.ind span {
+  border-radius: 30px;
+  background-color: black;
+  color: white;
+  padding: 3px 8px 3px 10px;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.ind p {
+  padding-top: 20px;
+  padding-bottom: 38px;
+  text-align: left;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 400;
+}

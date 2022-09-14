@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color:gray;
+    h1{
+        padding: 0.5rem;
+    }
+}
+
+main{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    div{
+        display: flex;
+        flex-flow: column wrap;
+        border: 1px solid black;
+        margin: 5rem;
+        padding: 1rem;
+        border-radius: 1rem;
+        input{
+            padding: 0.25rem;
+            margin: 0.5em 0rem;
+            font-size: 1.25rem;
+        }
+    }
+    button{
+        border: none;
+        background-color: rgba(129, 124, 124, 0.709);
+        border-radius: 0.25rem;
+        padding: 0.5rem;
+        font-size: 1.25rem;
+    }
+    div.result-area{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5rem;
+        p{
+            font-size: 1.25rem;
+        }
+    }
+}
+

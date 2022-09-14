@@ -1,0 +1,151 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+}
+
+.col-b {
+  color: black;
+}
+
+h2 {
+  color: #D9EAF5;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.2;
+  border-bottom: 5px solid #932d2d;
+  max-width: 15rem;
+  margin: 2rem;
+}
+
+p, i {
+  color: #D9EAF5;
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.po-img {
+  position: absolute;
+  z-index: -5;
+  top: 3.4rem;
+}
+
+.bc {
+  width: 845px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-clip-path: polygon(0 0, 0 100%, 50% 100%, 100% 0%);
+          clip-path: polygon(0 0, 0 100%, 50% 100%, 100% 0%);
+}
+
+section.title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-width: 1080px;
+  background: radial-gradient(295.57% 94.38% at 106.44% 0%, #8B2B8C 23.96%, #9F6FAC 36.77%, #A789B8 55.42%);
+  margin-bottom: 32px;
+}
+
+section.title div {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-right: 8rem;
+  max-width: 600px;
+}
+
+section.title div h2 {
+  font-size: 2.5rem;
+}
+
+section.title div ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  margin-bottom: 1rem;
+}
+
+section.title div ul li {
+  margin: 0 0.5rem;
+}
+
+section.title div ul li a {
+  text-decoration: none;
+}
+
+section.title div ul li a i {
+  font-size: 2.5rem;
+}
+
+main {
+  background-color: rgba(227, 223, 223, 0.548);
+}
+
+div.cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+div.cards div.card {
+  background-color: rgba(255, 255, 255, 0.112);
+  -webkit-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+          box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  width: 30%;
+  margin: 1rem;
+  padding: 2.5rem;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+
+div.cards div.card div {
+  margin-top: 0;
+}
+
+div.cards div.card div h3 {
+  font-size: 24px;
+  margin-bottom: 2rem;
+}
+
+div.cards div.card div i {
+  color: black;
+  font-size: 72px;
+  margin-bottom: 1rem;
+}
+
+div.cards div.card p {
+  color: black;
+}
+
+div.exp {
+  margin: 2rem 4rem;
+}
+
+div.exp h3 {
+  font-size: 1.75rem;
+}
+
+div.exp p {
+  color: black;
+  margin: 1rem;
+}
+
+div.exp ol li {
+  margin-left: 4rem;
+}
+
+footer {
+  background-color: black;
+}
+/*# sourceMappingURL=style.css.map */

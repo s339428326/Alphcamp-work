@@ -1,0 +1,87 @@
+// @import "../node_modules/bootstrap/scss/functions";
+// @import "./helpers/variables.scss";
+// @import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+@import "./base/base";
+@import "./components/paokeCard";
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 91%;
+  .title {
+    display: flex;
+    align-items: center;
+    img {
+      object-fit: cover;
+      max-width: 70px;
+    }
+    h2 {
+      padding-left: 0.5rem;
+    }
+    .score {
+      margin: 0;
+      color: #6c90ac;
+    }
+    .tried {
+      margin-top: 0;
+    }
+  }
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1320px;
+  padding: 0 12px;
+}
+
+.back {
+  background: url("https://assets-lighthouse.alphacamp.co/uploads/image/file/9222/ExportedContentImage_00.png");
+  background-size: cover;
+}
+
+.paired {
+  background-color: #dae0e3;
+}
+
+.wrong {
+  animation-name: wrongAnimation;
+  animation-duration: 0.2s;
+  animation-iteration-count: 5;
+}
+@keyframes wrongAnimation {
+  to {
+    border: 2px solid #ffd54f;
+  }
+}
+
+/** Game finished **/
+.completed {
+  position: absolute;
+  z-index: 999;
+  top: 33vh;
+  background-color: RGBA(232, 246, 254, 0.8);
+  width: 100vw;
+  padding: 50px 0;
+}
+.completed > p {
+  font-size: 1.5em;
+  color: black;
+  text-align: center;
+  margin: 0;
+}
+.completed > p:first-child {
+  font-size: 3em;
+  font-weight: 700;
+  color: #758d9a;
+}

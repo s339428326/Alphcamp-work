@@ -1,0 +1,55 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  line-height: 1.5;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px 0;
+}
+
+.slidecontainer {
+  font-size: 24px;
+  display: flex;
+  text-align: center;
+  gap: 12px 24px;
+}
+
+.box {
+  width: 3rem;
+  border-radius: 5px;
+}
+.color-number {
+  border-radius: 5px;
+  background-color: rgba(220, 220, 220, 0.326);
+  width: 32%;
+  text-align: center;
+  p {
+    font-size: 48px;
+    font-weight: 700;
+  }
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}

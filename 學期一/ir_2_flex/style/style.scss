@@ -1,0 +1,54 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+html,
+body {
+  background-color: #F3F3F3;
+  font-family: "Open Sans", sans-serif;
+}
+
+.card {
+  margin: 0 auto;
+  width: 700px;
+  border-radius: 0.5rem;
+  background-color: #FEFEFE;
+  height: 506px;
+  display: flex;
+  border: 1px solid #D3D3D3;
+}
+
+
+section.avatar {
+  border-radius:0.5rem 0 0 0.5rem ;
+  width: 50%;
+  background: url("https://static1.squarespace.com/static/51b3dc8ee4b051b96ceb10de/t/595a6198bebafb3c5c811730/1499095469215/?format=2500w");
+  background-position: center center;
+  background-size: cover;
+}
+
+/* 右邊欄位：人名、描述 */
+section.content{
+    width: 50%;
+    margin: 3rem 2rem;
+    h2.titel{
+        color: #344545;
+    }
+    h3{
+        color: #C65869;
+    }
+    hr{
+        margin: 0.75rem 0;
+    }
+    p{
+        font-style: italic;
+        color: #344545;
+    }
+
+}
